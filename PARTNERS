@@ -1,0 +1,14 @@
+How many machines are for the upper body?
+SELECT machines
+FROM bodypart
+WHERE = weightroom;
+
+What membership specials does the gym have for corporate memberships?
+SELECT membershiprates, specials
+FROM ratetable
+WHERE corporate
+
+What membership specials does the gym have for senior citiizens?
+SELECT membershiprates, specials
+FROM ratetable
+WHERE senior
